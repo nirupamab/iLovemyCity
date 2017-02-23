@@ -1,0 +1,18 @@
+html
+head
+include views/partials/head.jade
+body
+include views/partials/menu.jade
+br
+br
+br
+include views/partials/headline.jade
+br
+.container
+.row
+- for(var i=1;i<=numberOfImages;i++)
+.col-md-6
+.thumbnail
+
+img(src='/public/images/berlin.jpg')
+include views/partials/jsInclude.jade
